@@ -13,7 +13,7 @@ namespace Lab4_2Tests
         public void Priority(string infix, string expected)
             => Assert.AreEqual(expected, Poliz.ConvertToPolishNotation(infix));
 
-        // ───── 2. Скобки переопределяют приоритет ─────
+        // ───── 2. Скобки переопределяют приоритет ─────  
         [DataTestMethod]
         [DataRow("(a+b)*c", "a b + c *")]
         [DataRow("((a+b)*c)/d", "a b + c * d /")]
