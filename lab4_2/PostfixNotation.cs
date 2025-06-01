@@ -8,7 +8,7 @@ namespace Lab4_2
     {
         private static readonly HashSet<char> Operators = new() { '+', '-', '*', '/', '^' };
         private const char LeftParen = '(';
-        private const char RightParen = ')';
+        private const char RightParen = ')'; 
 
         public static string ConvertToPolishNotation(string expression)
         {
